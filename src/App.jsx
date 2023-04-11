@@ -89,7 +89,7 @@ function Dashboard() {
   return (
     <div className="board">
       <div className="dashboard-content">
-        <p>Dashboard</p>
+        <h2>Dashboard</h2>
         <Button variant="contained" size="small" startIcon={<DownloadIcon />}>Generate</Button>
 
       </div>

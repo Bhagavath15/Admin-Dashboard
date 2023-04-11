@@ -88,6 +88,10 @@ body {
     line-height: 1.6
 }
 
+.dash-cont:hover {
+    cursor: pointer
+}
+
 .dashboard-content {
     display: flex;
     justify-content: space-between;

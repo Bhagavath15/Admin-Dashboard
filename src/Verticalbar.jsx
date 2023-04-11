@@ -29,13 +29,13 @@ export function Verticalbar() {
 
             <hr />
             <div className="dashboard">
-                <Typography variant="p" component="div" sx={{ flexGrow: 1 }} onClick={() => navigate("/")}>
+                <Typography variant="p" className="dash-cont" component="div" sx={{ flexGrow: 1 }} onClick={() => navigate("/")}>
                     Dashboard
                 </Typography>
-                <Typography variant="p" component="div" sx={{ flexGrow: 1 }} onClick={() => navigate("/student")}>
+                <Typography variant="p" className="dash-cont" component="div" sx={{ flexGrow: 1 }} onClick={() => navigate("/student")}>
                     Student
                 </Typography>
-                <Typography variant="p" component="div" sx={{ flexGrow: 1 }} onClick={() => navigate("/teacher")}>
+                <Typography variant="p" className="dash-cont" component="div" sx={{ flexGrow: 1 }} onClick={() => navigate("/teacher")}>
                     Teacher
                 </Typography>
             </div>
