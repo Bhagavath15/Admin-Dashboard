@@ -27,6 +27,7 @@ export default function App() {
 
   return (
     <div className="App">
+
       <Verticalbar />
       <HorizontalBar />
       <Routes>
@@ -38,6 +39,7 @@ export default function App() {
     </div>
   )
 }
+
 function HorizontalBar() {
   return (
 
