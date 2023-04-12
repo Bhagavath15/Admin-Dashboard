@@ -38,6 +38,9 @@ export function Verticalbar() {
                 <Typography variant="p" className="dash-cont" component="div" sx={{ flexGrow: 1 }} onClick={() => navigate("/teacher")}>
                     Teacher
                 </Typography>
+                <Typography variant="p" className="dash-cont" component="div" sx={{ flexGrow: 1 }} onClick={() => navigate("/library")}>
+                    Library Management
+                </Typography>
             </div>
 
             <hr />

@@ -21,6 +21,7 @@ import { Dash, Container } from './Dash';
 import { Routes, Route } from 'react-router-dom';
 import { Student } from './Student';
 import { Teacher } from './Teacher';
+import { LibraryManagement } from './LibraryManagement';
 
 export default function App() {
 
@@ -34,6 +35,7 @@ export default function App() {
         <Route path="/" element={<Dashboard />} />
         <Route path="/student" element={<Student />} />
         <Route path="/teacher" element={<Teacher />} />
+        <Route path="/library" element={<LibraryManagement />} />
       </Routes>
       <SimpleBottomNavigation />
     </div>
