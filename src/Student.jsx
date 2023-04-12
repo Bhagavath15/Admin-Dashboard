@@ -4,13 +4,13 @@ import { useState } from 'react';
 
 export function Student() {
     const [todos, setTodos] = useState([
-        { id: 1, name: 'Bharathi', email: 'bharathi@gmail.com', gender: 'male' },
-        { id: 2, name: 'Raja', email: 'raja@gmail.com', gender: 'male' },
-        { id: 3, name: 'Sarath', email: 'sarath@gmail.com', gender: 'male' },
-        { id: 4, name: 'Kumar', email: 'kumar@gmail.com', gender: 'male' },
-        { id: 5, name: 'Fathima', email: 'fathima@gmail.com', gender: 'female' },
-        { id: 6, name: 'Thara', email: 'thara@gmail.com', gender: 'female' },
-        { id: 7, name: 'maya', email: 'maya@gmail.com', gender: 'female' }
+        { id: 1, name: 'Kakashi', email: 'kakashi@gmail.com', gender: 'male' },
+        { id: 2, name: 'Itachi uchiha', email: 'itachi@gmail.com', gender: 'male' },
+        { id: 3, name: 'Naruto uzumaki', email: 'naruto@gmail.com', gender: 'male' },
+        { id: 4, name: 'Minato', email: 'minato@gmail.com', gender: 'male' },
+        { id: 5, name: 'Hinata', email: 'hinata@gmail.com', gender: 'female' },
+        { id: 6, name: 'Ino', email: 'ino@gmail.com', gender: 'female' },
+        { id: 7, name: 'Sakura', email: 'sakura@gmail.com', gender: 'female' }
     ]);
 
     const [inputValue, setInputValue] = useState('');
