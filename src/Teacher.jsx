@@ -4,8 +4,8 @@ import { useState } from 'react';
 
 export function Teacher() {
     const [teacher, setteacher] = useState([
-        { id: 1, name: 'Bharathi', age: '22', subject: 'manufacturing technology', class: 'second_year' },
-        { id: 2, name: 'Raja', age: '30', subject: 'thermodynamics', class: 'third_year' },
+        { id: 1, name: 'Stephen', age: '22', subject: 'Engineering Physics', class: 'Second Year' },
+        { id: 2, name: 'St.Paul', age: '30', subject: 'Robotics', class: 'Third Year' },
     ]);
     const [inputValue, setInputValue] = useState('');
     const [inputValue1, setInputValue1] = useState('');
